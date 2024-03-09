@@ -1,11 +1,11 @@
 USE [master]
 GO
 
-CREATE LOGIN [BootCamp] 
-	WITH PASSWORD=N'B9037!m8947#', 
-	DEFAULT_DATABASE=[BootCamp], 
-	DEFAULT_LANGUAGE=[Korean], 
-	CHECK_EXPIRATION=OFF, 
+CREATE LOGIN [BootCamp]
+	WITH PASSWORD=N'<비밀번호%1234>',
+	DEFAULT_DATABASE=[BootCamp],
+	DEFAULT_LANGUAGE=[Korean],
+	CHECK_EXPIRATION=OFF,
 	CHECK_POLICY=OFF
 GO
 
@@ -18,11 +18,4 @@ ALTER USER [BootCamp] WITH DEFAULT_SCHEMA=[dbo]
 GO
 
 ALTER ROLE [db_owner] ADD MEMBER [BootCamp]
-GO
-
--- 오류 15517 접근
-alter authorization on database:: [DB명] to [Login명];
-
-
-drop TABLE dbo.Demo
 GO
