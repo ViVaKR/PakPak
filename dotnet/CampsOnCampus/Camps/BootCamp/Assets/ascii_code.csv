@@ -1,0 +1,257 @@
+Id,Dec,Oct,Hex,Bin,Symbol,HtmlNumber,HtmlName,Description
+0,0,0,0,0,NUL,&#00;,,Null character
+0,1,1,1,1,SOH,&#01;,,Start of Heading
+0,2,2,2,10,STX,&#02;,,Start of Text
+0,3,3,3,11,ETX,&#03;,,End of Text
+0,4,4,4,100,EOT,&#04;,,End of Transmission
+0,5,5,5,101,ENQ,&#05;,,Enquiry
+0,6,6,6,110,ACK,&#06;,,Acknowledge
+0,7,7,7,111,BEL,&#07;,,Bell Alert
+0,8,10,8,1000,BS,&#08;,,Backspace
+0,9,11,9,1001,HT,&#09;,,Horizontal Tab
+0,10,12,0A,1010,LF,&#10;,,Line Feed
+0,11,13,0B,1011,VT,&#11;,,Vertical Tabulation
+0,12,14,0C,1100,FF,&#12;,,Form Feed
+0,13,15,0D,1101,CR,&#13;,,Carriage Return
+0,14,16,0E,1110,SO,&#14;,,Shift Out
+0,15,17,0F,1111,SI,&#15;,,Shift In
+0,16,20,10,10000,DLE,&#16;,,Data Link Escape
+0,17,21,11,10001,DC1,&#17;,,Device Control One (XON)
+0,18,22,12,10010,DC2,&#18;,,Device Control Two
+0,19,23,13,10011,DC3,&#19;,,Device Control Three (XOFF)
+0,20,24,14,10100,DC4,&#20;,,Device Control Four
+0,21,25,15,10101,NAK,&#21;,,Negative Acknowledge
+0,22,26,16,10110,SYN,&#22;,,Synchronous Idle
+0,23,27,17,10111,ETB,&#23;,,End of Transmission Block
+0,24,30,18,11000,CAN,&#24;,,Cancel
+0,25,31,19,11001,EM,&#25;,,End of medium
+0,26,32,1A,11010,SUB,&#26;,,Substitute
+0,27,33,1B,11011,ESC,&#27;,,Escape
+0,28,34,1C,11100,FS,&#28;,,File Separator
+0,29,35,1D,11101,GS,&#29;,,Group Separator
+0,30,36,1E,11110,RS,&#30;,,Record Separator
+0,31,37,1F,11111,US,&#31;,,Unit Separator
+0,32,40,20,100000,SP,&#32;,,Space
+0,33,41,21,100001,!,&#33;,&excl;,Exclamation mark
+0,34,42,22,100010,quotes,&#34;,&quot;,Double quotes or speech marks
+0,35,43,23,100011,#,&#35;,&num;,Number sign
+0,36,44,24,100100,$,&#36;,&dollar;,Dollar
+0,37,45,25,100101,%,&#37;,&percnt;,Per cent sign
+0,38,46,26,100110,&,&#38;,&amp;,Ampersand
+0,39,47,27,100111,,&#39;,&apos;,Single quote
+0,40,50,28,101000,(,&#40;,&lparen;,Open parenthesis (or open bracket)
+0,41,51,29,101001,),&#41;,&rparen;,Close parenthesis (or close bracket)
+0,42,52,2A,101010,*,&#42;,&ast;,Asterisk
+0,43,53,2B,101011,+,&#43;,&plus;,Plus
+0,44,54,2C,101100,comma,&#44;,&comma;,Comma
+0,45,55,2D,101101,-,&#45;,,Hyphen-minus
+0,46,56,2E,101110,.,&#46;,&period;,Period dot or full stop
+0,47,57,2F,101111,/,&#47;,&sol;,Slash or divide
+0,48,60,30,110000,0,&#48;,,Zero
+0,49,61,31,110001,1,&#49;,,One
+0,50,62,32,110010,2,&#50;,,Two
+0,51,63,33,110011,3,&#51;,,Three
+0,52,64,34,110100,4,&#52;,,Four
+0,53,65,35,110101,5,&#53;,,Five
+0,54,66,36,110110,6,&#54;,,Six
+0,55,67,37,110111,7,&#55;,,Seven
+0,56,70,38,111000,8,&#56;,,Eight
+0,57,71,39,111001,9,&#57;,,Nine
+0,58,72,3A,111010,:,&#58;,&colon;,Colon
+0,59,73,3B,111011,;,&#59;,&semi;,Semicolon
+0,60,74,3C,111100,<,&#60;,&lt;,Less than (or open angled bracket)
+0,61,75,3D,111101,=,&#61;,&equals;,Equals
+0,62,76,3E,111110,>,&#62;,&gt;,Greater than (or close angled bracket)
+0,63,77,3F,111111,?,&#63;,&quest;,Question mark
+0,64,100,40,1000000,@,&#64;,&commat;,At sign
+0,65,101,41,1000001,A,&#65;,,Uppercase A
+0,66,102,42,1000010,B,&#66;,,Uppercase B
+0,67,103,43,1000011,C,&#67;,,Uppercase C
+0,68,104,44,1000100,D,&#68;,,Uppercase D
+0,69,105,45,1000101,E,&#69;,,Uppercase E
+0,70,106,46,1000110,F,&#70;,,Uppercase F
+0,71,107,47,1000111,G,&#71;,,Uppercase G
+0,72,110,48,1001000,H,&#72;,,Uppercase H
+0,73,111,49,1001001,I,&#73;,,Uppercase I
+0,74,112,4A,1001010,J,&#74;,,Uppercase J
+0,75,113,4B,1001011,K,&#75;,,Uppercase K
+0,76,114,4C,1001100,L,&#76;,,Uppercase L
+0,77,115,4D,1001101,M,&#77;,,Uppercase M
+0,78,116,4E,1001110,N,&#78;,,Uppercase N
+0,79,117,4F,1001111,O,&#79;,,Uppercase O
+0,80,120,50,1010000,P,&#80;,,Uppercase P
+0,81,121,51,1010001,Q,&#81;,,Uppercase Q
+0,82,122,52,1010010,R,&#82;,,Uppercase R
+0,83,123,53,1010011,S,&#83;,,Uppercase S
+0,84,124,54,1010100,T,&#84;,,Uppercase T
+0,85,125,55,1010101,U,&#85;,,Uppercase U
+0,86,126,56,1010110,V,&#86;,,Uppercase V
+0,87,127,57,1010111,W,&#87;,,Uppercase W
+0,88,130,58,1011000,X,&#88;,,Uppercase X
+0,89,131,59,1011001,Y,&#89;,,Uppercase Y
+0,90,132,5A,1011010,Z,&#90;,,Uppercase Z
+0,91,133,5B,1011011,[,&#91;,&lsqb;,Opening bracket
+0,92,134,5C,1011100,backslash,&#92;,&bsol;,Backslash
+0,93,135,5D,1011101,],&#93;,&rsqb;,Closing bracket
+0,94,136,5E,1011110,^,&#94;,&Hat;,Caret - circumflex
+0,95,137,5F,1011111,_,&#95;,&lowbar;,Underscore
+0,96,140,60,1100000,`,&#96;,&grave;,Grave accent
+0,97,141,61,1100001,a,&#97;,,Lowercase a
+0,98,142,62,1100010,b,&#98;,,Lowercase b
+0,99,143,63,1100011,c,&#99;,,Lowercase c
+0,100,144,64,1100100,d,&#100;,,Lowercase d
+0,101,145,65,1100101,e,&#101;,,Lowercase e
+0,102,146,66,1100110,f,&#102;,,Lowercase f
+0,103,147,67,1100111,g,&#103;,,Lowercase g
+0,104,150,68,1101000,h,&#104;,,Lowercase h
+0,105,151,69,1101001,i,&#105;,,Lowercase i
+0,106,152,6A,1101010,j,&#106;,,Lowercase j
+0,107,153,6B,1101011,k,&#107;,,Lowercase k
+0,108,154,6C,1101100,l,&#108;,,Lowercase l
+0,109,155,6D,1101101,m,&#109;,,Lowercase m
+0,110,156,6E,1101110,n,&#110;,,Lowercase n
+0,111,157,6F,1101111,o,&#111;,,Lowercase o
+0,112,160,70,1110000,p,&#112;,,Lowercase p
+0,113,161,71,1110001,q,&#113;,,Lowercase q
+0,114,162,72,1110010,r,&#114;,,Lowercase r
+0,115,163,73,1110011,s,&#115;,,Lowercase s
+0,116,164,74,1110100,t,&#116;,,Lowercase t
+0,117,165,75,1110101,u,&#117;,,Lowercase u
+0,118,166,76,1110110,v,&#118;,,Lowercase v
+0,119,167,77,1110111,w,&#119;,,Lowercase w
+0,120,170,78,1111000,x,&#120;,,Lowercase x
+0,121,171,79,1111001,y,&#121;,,Lowercase y
+0,122,172,7A,1111010,z,&#122;,,Lowercase z
+0,123,173,7B,1111011,{,&#123;,&lcub;,Opening brace
+0,124,174,7C,1111100,|,&#124;,&verbar;,Vertical bar
+0,125,175,7D,1111101,},&#125;,&rcub;,Closing brace
+0,126,176,7E,1111110,~,&#126;,&tilde;,Equivalency sign - tilde
+0,127,177,7F,1111111,DEL,&#127;,,Delete
+0,128,200,80,10000000,€,&#8364;,&euro;,Euro sign
+0,129,201,81,10000001,,,,Unused
+0,130,202,82,10000010,,&#130;,&sbquo;,Single low-9 quotation mark
+0,131,203,83,10000011,ƒ,&#131;,&fnof;,Latin small letter f with hook
+0,132,204,84,10000100,„,&#132;,&bdquo;,Double low-9 quotation mark
+0,133,205,85,10000101,…,&#133;,&hellip;,Horizontal ellipsis
+0,134,206,86,10000110,†,&#134;,&dagger;,Dagger
+0,135,207,87,10000111,‡,&#135;,&Dagger;,Double dagger
+0,136,210,88,10001000,ˆ,&#136;,&circ;,Modifier letter circumflex accent
+0,137,211,89,10001001,‰,&#137;,&permil;,Per mille sign
+0,138,212,8A,10001010,Š,&#138;,&Scaron;,Latin capital letter S with caron
+0,139,213,8B,10001011,‹,&#139;,&lsaquo;,Single left-pointing angle quotation
+0,140,214,8C,10001100,Œ,&#140;,&OElig;,Latin capital ligature OE
+0,141,215,8D,10001101,,,,Unused
+0,142,216,8E,10001110,Ž,&#142;,&Zcaron;,Latin capital letter Z with caron
+0,143,217,8F,10001111,,,,Unused
+0,144,220,90,10010000,,,,Unused
+0,145,221,91,10010001,,&#145;,&lsquo;,Left single quotation mark
+0,146,222,92,10010010,,&#146;,&rsquo;,Right single quotation mark
+0,147,223,93,10010011,“,&#147;,&ldquo;,Left double quotation mark
+0,148,224,94,10010100,”,&#148;,&rdquo;,Right double quotation mark
+0,149,225,95,10010101,•,&#149;,&bull;,Bullet
+0,150,226,96,10010110,–,&#150;,&ndash;,En dash
+0,151,227,97,10010111,—,&#151;,&mdash;,Em dash
+0,152,230,98,10011000,˜,&#152;,&tilde;,Small tilde
+0,153,231,99,10011001,™,&#153;,&trade;,Trade mark sign
+0,154,232,9A,10011010,š,&#154;,&scaron;,Latin small letter S with caron
+0,155,233,9B,10011011,›,&#155;,&rsaquo;,Single right-pointing angle quotation mark
+0,156,234,9C,10011100,œ,&#156;,&oelig;,Latin small ligature oe
+0,157,235,9D,10011101,,,,Unused
+0,158,236,9E,10011110,ž,&#158;,&zcaron;,Latin small letter z with caron
+0,159,237,9F,10011111,Ÿ,&#159;,&Yuml;,Latin capital letter Y with diaeresis
+0,160,240,A0,10100000,NBSP,&#160;,&nbsp;,Non-breaking space
+0,161,241,A1,10100001,¡,&#161;,&iexcl;,Inverted exclamation mark
+0,162,242,A2,10100010,¢,&#162;,&cent;,Cent sign
+0,163,243,A3,10100011,£,&#163;,&pound;,Pound sign
+0,164,244,A4,10100100,¤,&#164;,&curren;,Currency sign
+0,165,245,A5,10100101,¥,&#165;,&yen;,Yen sign
+0,166,246,A6,10100110,¦,&#166;,&brvbar;,Pipe broken vertical bar
+0,167,247,A7,10100111,§,&#167;,&sect;,Section sign
+0,168,250,A8,10101000,¨,&#168;,&uml;,Spacing diaeresis - umlaut
+0,169,251,A9,10101001,©,&#169;,&copy;,Copyright sign
+0,170,252,AA,10101010,ª,&#170;,&ordf;,Feminine ordinal indicator
+0,171,253,AB,10101011,«,&#171;,&laquo;,Left double angle quotes
+0,172,254,AC,10101100,¬,&#172;,&not;,Negation
+0,173,255,AD,10101101,SHY,&#173;,&shy;,Soft hyphen
+0,174,256,AE,10101110,®,&#174;,&reg;,Registered trade mark sign
+0,175,257,AF,10101111,¯,&#175;,&macr;,Spacing macron - overline
+0,176,260,B0,10110000,°,&#176;,&deg;,Degree sign
+0,177,261,B1,10110001,±,&#177;,&plusmn;,Plus-or-minus sign
+0,178,262,B2,10110010,²,&#178;,&sup2;,Superscript two - squared
+0,179,263,B3,10110011,³,&#179;,&sup3;,Superscript three - cubed
+0,180,264,B4,10110100,´,&#180;,&acute;,Acute accent - spacing acute
+0,181,265,B5,10110101,µ,&#181;,&micro;,Micro sign
+0,182,266,B6,10110110,¶,&#182;,&para;,Pilcrow sign - paragraph sign
+0,183,267,B7,10110111,·,&#183;,&middot;,Middle dot - Georgian comma
+0,184,270,B8,10111000,¸,&#184;,&cedil;,Spacing cedilla
+0,185,271,B9,10111001,¹,&#185;,&sup1;,Superscript one
+0,186,272,BA,10111010,º,&#186;,&ordm;,Masculine ordinal indicator
+0,187,273,BB,10111011,»,&#187;,&raquo;,Right double angle quotes
+0,188,274,BC,10111100,¼,&#188;,&frac14;,Fraction one quarter
+0,189,275,BD,10111101,½,&#189;,&frac12;,Fraction one half
+0,190,276,BE,10111110,¾,&#190;,&frac34;,Fraction three quarters
+0,191,277,BF,10111111,¿,&#191;,&iquest;,Inverted question mark
+0,192,300,C0,11000000,À,&#192;,&Agrave;,Latin capital letter A with grave
+0,193,301,C1,11000001,Á,&#193;,&Aacute;,Latin capital letter A with acute
+0,194,302,C2,11000010,Â,&#194;,&Acirc;,Latin capital letter A with circumflex
+0,195,303,C3,11000011,Ã,&#195;,&Atilde;,Latin capital letter A with tilde
+0,196,304,C4,11000100,Ä,&#196;,&Auml;,Latin capital letter A with diaeresis
+0,197,305,C5,11000101,Å,&#197;,&Aring;,Latin capital letter A with ring above
+0,198,306,C6,11000110,Æ,&#198;,&AElig;,Latin capital letter AE
+0,199,307,C7,11000111,Ç,&#199;,&Ccedil;,Latin capital letter C with cedilla
+0,200,310,C8,11001000,È,&#200;,&Egrave;,Latin capital letter E with grave
+0,201,311,C9,11001001,É,&#201;,&Eacute;,Latin capital letter E with acute
+0,202,312,CA,11001010,Ê,&#202;,&Ecirc;,Latin capital letter E with circumflex
+0,203,313,CB,11001011,Ë,&#203;,&Euml;,Latin capital letter E with diaeresis
+0,204,314,CC,11001100,Ì,&#204;,&Igrave;,Latin capital letter I with grave
+0,205,315,CD,11001101,Í,&#205;,&Iacute;,Latin capital letter I with acute
+0,206,316,CE,11001110,Î,&#206;,&Icirc;,Latin capital letter I with circumflex
+0,207,317,CF,11001111,Ï,&#207;,&Iuml;,Latin capital letter I with diaeresis
+0,208,320,D0,11010000,Ð,&#208;,&ETH;,Latin capital letter ETH
+0,209,321,D1,11010001,Ñ,&#209;,&Ntilde;,Latin capital letter N with tilde
+0,210,322,D2,11010010,Ò,&#210;,&Ograve;,Latin capital letter O with grave
+0,211,323,D3,11010011,Ó,&#211;,&Oacute;,Latin capital letter O with acute
+0,212,324,D4,11010100,Ô,&#212;,&Ocirc;,Latin capital letter O with circumflex
+0,213,325,D5,11010101,Õ,&#213;,&Otilde;,Latin capital letter O with tilde
+0,214,326,D6,11010110,Ö,&#214;,&Ouml;,Latin capital letter O with diaeresis
+0,215,327,D7,11010111,×,&#215;,&times;,Multiplication sign
+0,216,330,D8,11011000,Ø,&#216;,&Oslash;,Latin capital letter O with slash
+0,217,331,D9,11011001,Ù,&#217;,&Ugrave;,Latin capital letter U with grave
+0,218,332,DA,11011010,Ú,&#218;,&Uacute;,Latin capital letter U with acute
+0,219,333,DB,11011011,Û,&#219;,&Ucirc;,Latin capital letter U with circumflex
+0,220,334,DC,11011100,Ü,&#220;,&Uuml;,Latin capital letter U with diaeresis
+0,221,335,DD,11011101,Ý,&#221;,&Yacute;,Latin capital letter Y with acute
+0,222,336,DE,11011110,Þ,&#222;,&THORN;,Latin capital letter THORN
+0,223,337,DF,11011111,ß,&#223;,&szlig;,Latin small letter sharp s - ess-zed
+0,224,340,E0,11100000,à,&#224;,&agrave;,Latin small letter a with grave
+0,225,341,E1,11100001,á,&#225;,&aacute;,Latin small letter a with acute
+0,226,342,E2,11100010,â,&#226;,&acirc;,Latin small letter a with circumflex
+0,227,343,E3,11100011,ã,&#227;,&atilde;,Latin small letter a with tilde
+0,228,344,E4,11100100,ä,&#228;,&auml;,Latin small letter a with diaeresis
+0,229,345,E5,11100101,å,&#229;,&aring;,Latin small letter a with ring above
+0,230,346,E6,11100110,æ,&#230;,&aelig;,Latin small letter ae
+0,231,347,E7,11100111,ç,&#231;,&ccedil;,Latin small letter c with cedilla
+0,232,350,E8,11101000,è,&#232;,&egrave;,Latin small letter e with grave
+0,233,351,E9,11101001,é,&#233;,&eacute;,Latin small letter e with acute
+0,234,352,EA,11101010,ê,&#234;,&ecirc;,Latin small letter e with circumflex
+0,235,353,EB,11101011,ë,&#235;,&euml;,Latin small letter e with diaeresis
+0,236,354,EC,11101100,ì,&#236;,&igrave;,Latin small letter i with grave
+0,237,355,ED,11101101,í,&#237;,&iacute;,Latin small letter i with acute
+0,238,356,EE,11101110,î,&#238;,&icirc;,Latin small letter i with circumflex
+0,239,357,EF,11101111,ï,&#239;,&iuml;,Latin small letter i with diaeresis
+0,240,360,F0,11110000,ð,&#240;,&eth;,Latin small letter eth
+0,241,361,F1,11110001,ñ,&#241;,&ntilde;,Latin small letter n with tilde
+0,242,362,F2,11110010,ò,&#242;,&ograve;,Latin small letter o with grave
+0,243,363,F3,11110011,ó,&#243;,&oacute;,Latin small letter o with acute
+0,244,364,F4,11110100,ô,&#244;,&ocirc;,Latin small letter o with circumflex
+0,245,365,F5,11110101,õ,&#245;,&otilde;,Latin small letter o with tilde
+0,246,366,F6,11110110,ö,&#246;,&ouml;,Latin small letter o with diaeresis
+0,247,367,F7,11110111,÷,&#247;,&divide;,Division sign
+0,248,370,F8,11111000,ø,&#248;,&oslash;,Latin small letter o with slash
+0,249,371,F9,11111001,ù,&#249;,&ugrave;,Latin small letter u with grave
+0,250,372,FA,11111010,ú,&#250;,&uacute;,Latin small letter u with acute
+0,251,373,FB,11111011,û,&#251;,&ucirc;,Latin small letter u with circumflex
+0,252,374,FC,11111100,ü,&#252;,&uuml;,Latin small letter u with diaeresis
+0,253,375,FD,11111101,ý,&#253;,&yacute;,Latin small letter y with acute
+0,254,376,FE,11111110,þ,&#254;,&thorn;,Latin small letter thorn
+0,255,377,FF,11111111,ÿ,&#255;,&yuml;,Latin small letter y with diaeresis
